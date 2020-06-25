@@ -13,6 +13,6 @@ class FashionController extends Controller
 
         return view('fashions/index', [
             'fashions' => $fashions
-        ])
+        ]);
     }
 }
