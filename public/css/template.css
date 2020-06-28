@@ -81,9 +81,27 @@ header {
   display: flex;
   justify-content: space-between;
 }
-.loginBtn {
 
+.fashionIndexBottomHeader {
+  height: 5vh;
 }
-.signupBtn {
+.fashionIndexBottomHeaderBox {
+  width: 70vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  line-height: 5vh;
+}
 
+
+.wrapper {
+  padding: 2vh 0;
+}
+
+.wrapperContent { 
+  background-color: red;
+  height: 100vh;
+  width: 70vw;
+  margin: 0 auto;
+  padding-top: 2vh;
 }

@@ -23,8 +23,21 @@
         <a href="#" class="signupBtn">新規会員登録</a>
     </div>
   </header>
+  @if(Request::is('/'))
+  <div class="fashionIndexBottomHeader">
+    <div class="fashionIndexBottomHeaderBox">
+      <a href="#">ALL</a>
+      <a href="#">MEN</a>
+      <a href="#">WOMEN</a>
+      <a href="#">KIDS</a>
+      <a href="#">WORLD</a>
+    </div>
+  </div>
+  @endif
   <div class="wrapper">
-    @yield('content')
+    <div class="wrapperContent">
+      @yield('content')
+    </div>
   </div>
 </body>
 </html>
