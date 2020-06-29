@@ -54,7 +54,6 @@ a {
 /* ////////リセットCSS///////// */
 
 header {
-  background-color: aqua;
   height: 10vh;
   display: flex;
   justify-content: space-between;
@@ -99,8 +98,6 @@ header {
 }
 
 .wrapperContent { 
-  background-color: red;
-  height: 100vh;
   width: 70vw;
   margin: 0 auto;
   padding-top: 2vh;

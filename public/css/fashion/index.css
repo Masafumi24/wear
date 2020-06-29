@@ -20,3 +20,27 @@
   width: 50%;
   text-align: center;
 }
+
+.fashionIndexMain {
+  display: flex;
+}
+
+.side {
+  width: 20%;
+}
+
+.sideOneContent {
+  margin-top: 30px;
+  line-height: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid;
+}
+
+.sideOneContentTitle {
+  font-size: large;
+  margin-bottom: 10px;
+}
+
+.sideBtn {
+  display: block;
+}
