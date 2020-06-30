@@ -47,14 +47,60 @@
         <a href="#" class="sideBtn">テストカテゴリー</a>
         <a href="#" class="sideBtn">テストカテゴリー</a>
       </div>
-    </dav>
+    </div>
     <div class="main">
       <div class="mainContent">
-        <h1 class="mainContentTitle">テスト</h1>
         <div class="mainContentBox">
-          <div class="mainContentBoxList"></div>
-          <div class="mainContentBoxList"></div>
-          <div class="mainContentBoxList"></div>
+          <div class="mainContentBoxList">
+            <div class="mainContentBoxListImage"></div>
+            <div class="mainContentBoxListProfile">
+              <div class="mainContentBoxListProfileIcon"></div>
+              <div class="mainContentBoxListProfileStatus">
+                <div class="mainContentBoxListProfileStatusName"></div>
+                <div class="mainContentBoxListProfileStatusHeight"></div>
+              </div>
+            </div>
+          </div>
+          <div class="mainContentBoxList">
+            <div class="mainContentBoxListImage"></div>
+            <div class="mainContentBoxListProfile">
+              <div class="mainContentBoxListProfileIcon"></div>
+              <div class="mainContentBoxListProfileStatus">
+                <div class="mainContentBoxListProfileStatusName"></div>
+                <div class="mainContentBoxListProfileStatusHeight"></div>
+              </div>
+            </div>
+          </div>
+          <div class="mainContentBoxList">
+            <div class="mainContentBoxListImage"></div>
+            <div class="mainContentBoxListProfile">
+              <div class="mainContentBoxListProfileIcon"></div>
+              <div class="mainContentBoxListProfileStatus">
+                <div class="mainContentBoxListProfileStatusName"></div>
+                <div class="mainContentBoxListProfileStatusHeight"></div>
+              </div>
+            </div>
+          </div>
+          <div class="mainContentBoxList">
+            <div class="mainContentBoxListImage"></div>
+            <div class="mainContentBoxListProfile">
+              <div class="mainContentBoxListProfileIcon"></div>
+              <div class="mainContentBoxListProfileStatus">
+                <div class="mainContentBoxListProfileStatusName"></div>
+                <div class="mainContentBoxListProfileStatusHeight"></div>
+              </div>
+            </div>
+          </div>
+          <div class="mainContentBoxList">
+            <div class="mainContentBoxListImage"></div>
+            <div class="mainContentBoxListProfile">
+              <div class="mainContentBoxListProfileIcon"></div>
+              <div class="mainContentBoxListProfileStatus">
+                <div class="mainContentBoxListProfileStatusName"></div>
+                <div class="mainContentBoxListProfileStatusHeight"></div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

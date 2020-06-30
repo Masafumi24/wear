@@ -44,3 +44,23 @@
 .sideBtn {
   display: block;
 }
+
+/* ここまでがサイドバー */
+
+.main {
+  width: 80%;
+  padding: 30px 0;
+}
+
+.mainContentBox {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.mainContentBoxList {
+  background-color: blue;
+  height: 400px;
+  width: 30%;
+  margin: 0 0 20px 20px;
+}
+
