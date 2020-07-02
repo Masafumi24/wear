@@ -2,8 +2,14 @@ span {
   color: red;
 }
 
+select {
+  padding: 7px 60px;
+}
+
 .fashonCreateMainBoxContentTitle {
+  width: 25%;
   font-size: 1.2rem;
+  margin-right: 100px;
 }
 
 .fashoncreateheader {
@@ -16,20 +22,41 @@ span {
 }
 
 .fashonCreateMain {
-  background-color: chartreuse;
-  height: 200vh;
   width: 100%;
   padding: 30px 0;
 }
 
 .fashonCreateMainBox {
-  background-color: chocolate;
+  background-color: rgb(243, 243, 243);
   height: 100%;
-  width: 90%;
+  width: 80%;
   margin: 0 auto;
   padding: 60px 20px;
+  border: 1px solid;
+  border-radius: 7px;
 }
 
 .fashonCreateMainBoxContent {
   display: flex;
+  margin-bottom: 50px;
+}
+
+.fashonCreateMainBoxContentRightTitle {
+  margin-bottom: 10px;
+}
+
+.fashonCreateMainBoxContentRightForm {
+  padding: 90px 180px;
+}
+
+.selectBox {
+  margin-top: 20px;
+}
+
+.fashionCreateSubmit {
+  font-size: 20px;
+  display: block;
+  margin: 30px auto 0;
+  padding: 15px 90px;
+  background-color: rgb(46, 111, 250);
 }
