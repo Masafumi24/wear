@@ -15,4 +15,9 @@ class FashionController extends Controller
             'fashions' => $fashions
         ]);
     }
+
+    public function showCreateForm()
+    {
+        return view('fashions/create');
+    }
 }

@@ -14,3 +14,5 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', 'FashionController@index')->name('fashions.index');
+Route::get('/fashions/create', 'FashionController@showCreateForm')->name('fashions.create');
+Route::post('/fashions/create', 'FashionController@create');

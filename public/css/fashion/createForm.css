@@ -1,0 +1,35 @@
+span {
+  color: red;
+}
+
+.fashonCreateMainBoxContentTitle {
+  font-size: 1.2rem;
+}
+
+.fashoncreateheader {
+  height: 7vh;
+}
+
+.fashonCreateHeaderText {
+  line-height: 7vh;
+  font-size: 1.8rem;
+}
+
+.fashonCreateMain {
+  background-color: chartreuse;
+  height: 200vh;
+  width: 100%;
+  padding: 30px 0;
+}
+
+.fashonCreateMainBox {
+  background-color: chocolate;
+  height: 100%;
+  width: 90%;
+  margin: 0 auto;
+  padding: 60px 20px;
+}
+
+.fashonCreateMainBoxContent {
+  display: flex;
+}

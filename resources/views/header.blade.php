@@ -7,6 +7,7 @@
   <title>WEAR</title>
   <link rel="stylesheet" href="{{ asset('css/template.css') }}">
   <link rel="stylesheet" href="{{ asset('css/fashion/index.css') }}">
+  <link rel="stylesheet" href="{{ asset('css/fashion/createForm.css') }}">
 </head>
 <body>
   <header>
@@ -24,15 +25,15 @@
     </div>
   </header>
   @if(Request::is('/'))
-  <div class="fashionIndexBottomHeader">
-    <div class="fashionIndexBottomHeaderBox">
-      <a href="#">ALL</a>
-      <a href="#">MEN</a>
-      <a href="#">WOMEN</a>
-      <a href="#">KIDS</a>
-      <a href="#">WORLD</a>
+    <div class="fashionIndexBottomHeader">
+      <div class="fashionIndexBottomHeaderBox">
+        <a href="#">ALL</a>
+        <a href="#">MEN</a>
+        <a href="#">WOMEN</a>
+        <a href="#">KIDS</a>
+        <a href="#">WORLD</a>
+      </div>
     </div>
-  </div>
   @endif
   <div class="wrapper">
     <div class="wrapperContent">
