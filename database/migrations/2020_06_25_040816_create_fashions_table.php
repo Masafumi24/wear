@@ -15,7 +15,7 @@ class CreateFashionsTable extends Migration
     {
         Schema::create('fashions', function (Blueprint $table) {
             $table->id();
-            $table->text('introduction', 150);   
+            $table->text('introduction', 2000);   
             $table->string('path'); 
             $table->integer('sex');
             $table->integer('height');

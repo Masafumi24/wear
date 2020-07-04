@@ -1,7 +1,7 @@
 @extends('header')
 
 @section('content')
-  <form action="/fahsion/create" method="POST">
+  <form action="/fahsion/create" method="POST" enctype="multipart/form-data">
     <div class="fashoncreateheader">
       <p class="fashonCreateHeaderText">コーディネート投稿</p>
     </div>
@@ -9,6 +9,7 @@
       <div class="fashonCreateMainBox">
         <div class="fashonCreateMainBoxContent">
           <p class="fashonCreateMainBoxContentTitle">コーディネート画像 <span>※</span></p>
+          <input type="file" name="imagefile" value=""/><br /><br />
         </div>
         <div class="fashonCreateMainBoxContent">
           <p class="fashonCreateMainBoxContentTitle">コーディネート詳細</p>

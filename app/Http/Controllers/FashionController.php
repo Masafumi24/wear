@@ -20,4 +20,9 @@ class FashionController extends Controller
     {
         return view('fashions/create');
     }
+
+    public function create(CreateFahion $request)
+    {
+
+    }
 }
