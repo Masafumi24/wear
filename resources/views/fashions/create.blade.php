@@ -1,7 +1,8 @@
 @extends('header')
 
 @section('content')
-  <form action="/fahsion/create" method="POST" enctype="multipart/form-data">
+  <form action="{{ route('fashions.create') }}" method="POST" enctype="multipart/form-data">
+    @csrf
     <div class="fashoncreateheader">
       <p class="fashonCreateHeaderText">コーディネート投稿</p>
     </div>
@@ -9,7 +10,7 @@
       <div class="fashonCreateMainBox">
         <div class="fashonCreateMainBoxContent">
           <p class="fashonCreateMainBoxContentTitle">コーディネート画像 <span>※</span></p>
-          <input type="file" name="imagefile" value=""/><br /><br />
+          <input type="file" name="path" value=""/><br /><br />
         </div>
         <div class="fashonCreateMainBoxContent">
           <p class="fashonCreateMainBoxContentTitle">コーディネート詳細</p>
@@ -19,7 +20,7 @@
             <p class="fashonCreateMainBoxContentRightMini">※2,000文字以内で入力してください。</p>
             <div class="selectBox">
               <p class="fashonCreateMainBoxContentRightTitle">性別<span>※</span></p>
-              <select name="age">
+              <select name="sex">
                 <option value="" selected="selected">選択してください</option>
                 <option value="0">MEN</option>
                 <option value="1">WOMEN</option>
@@ -28,7 +29,7 @@
             </div>
             <div class="selectBox">
               <p class="fashonCreateMainBoxContentRightTitle">身長<span>※</span></p>
-              <select name="age">
+              <select name="height">
                 <option value="" selected="selected">選択してください</option>
                 <option value="0">50cm</option>
                 <option value="1">60cm</option>
@@ -164,7 +165,7 @@
             </div>
             <div class="selectBox">
               <p class="fashonCreateMainBoxContentRightTitle">髪型</p>
-              <select name="age">
+              <select name="hairstyle">
                 <option value="" selected="selected">選択してください</option>
                 <option value="0">ロングヘアー</option>
                 <option value="1">スーパーロングヘアー</option>

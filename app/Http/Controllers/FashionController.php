@@ -22,17 +22,20 @@ class FashionController extends Controller
         return view('fashions/create');
     }
 
-    public function create(CreateFahion $request)
-    {
+    public function create(CreateFashion $request)
+    {   
+        dd($request);
         $fashion = new Fashion();
-
+        dd($request->file);
+        $fashion->path = $request->file('path')->store('public/images');
         $fashion->introduction = $request->introduction;
-        $fashion->path = $request->path;
         $fashion->sex = $request->sex;
         $fashion->height = $request->height;
         $fashion->age = $request->age;
         $fashion->hairstyle = $request->hairstyle;
 
-        return redirect()->route('/');
+        $fashion->save();
+
+        return redirect()->route('fashions.index');
     }
 }
