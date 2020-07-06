@@ -24,9 +24,7 @@ class FashionController extends Controller
 
     public function create(CreateFashion $request)
     {   
-        dd($request);
         $fashion = new Fashion();
-        dd($request->file);
         $fashion->path = $request->file('path')->store('public/images');
         $fashion->introduction = $request->introduction;
         $fashion->sex = $request->sex;
