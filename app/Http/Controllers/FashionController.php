@@ -25,7 +25,10 @@ class FashionController extends Controller
     public function create(CreateFashion $request)
     {   
         $fashion = new Fashion();
-        $fashion->path = $request->file('path')->store('public/images');
+
+        $filename = $request->file('path')->store('image');
+        $fashion->path = basename($filename);
+
         $fashion->introduction = $request->introduction;
         $fashion->sex = $request->sex;
         $fashion->height = $request->height;

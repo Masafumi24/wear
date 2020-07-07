@@ -51,56 +51,20 @@
     <div class="main">
       <div class="mainContent">
         <div class="mainContentBox">
-          <div class="mainContentBoxList">
-            <div class="mainContentBoxListImage"></div>
-            <div class="mainContentBoxListProfile">
-              <div class="mainContentBoxListProfileIcon"></div>
-              <div class="mainContentBoxListProfileStatus">
-                <div class="mainContentBoxListProfileStatusName"></div>
-                <div class="mainContentBoxListProfileStatusHeight"></div>
+          @foreach($fashions as $fashion)
+            <div class="mainContentBoxList">
+              <div class="mainContentBoxListImage">
+                <img src="{{ asset('/storage/image/'.$fashion->path)}}" width="100%" height="100%">
+              </div>
+              <div class="mainContentBoxListProfile">
+                <div class="mainContentBoxListProfileIcon"></div>
+                <div class="mainContentBoxListProfileStatus">
+                  <div class="mainContentBoxListProfileStatusName"></div>
+                  <div class="mainContentBoxListProfileStatusHeight"></div>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="mainContentBoxList">
-            <div class="mainContentBoxListImage"></div>
-            <div class="mainContentBoxListProfile">
-              <div class="mainContentBoxListProfileIcon"></div>
-              <div class="mainContentBoxListProfileStatus">
-                <div class="mainContentBoxListProfileStatusName"></div>
-                <div class="mainContentBoxListProfileStatusHeight"></div>
-              </div>
-            </div>
-          </div>
-          <div class="mainContentBoxList">
-            <div class="mainContentBoxListImage"></div>
-            <div class="mainContentBoxListProfile">
-              <div class="mainContentBoxListProfileIcon"></div>
-              <div class="mainContentBoxListProfileStatus">
-                <div class="mainContentBoxListProfileStatusName"></div>
-                <div class="mainContentBoxListProfileStatusHeight"></div>
-              </div>
-            </div>
-          </div>
-          <div class="mainContentBoxList">
-            <div class="mainContentBoxListImage"></div>
-            <div class="mainContentBoxListProfile">
-              <div class="mainContentBoxListProfileIcon"></div>
-              <div class="mainContentBoxListProfileStatus">
-                <div class="mainContentBoxListProfileStatusName"></div>
-                <div class="mainContentBoxListProfileStatusHeight"></div>
-              </div>
-            </div>
-          </div>
-          <div class="mainContentBoxList">
-            <div class="mainContentBoxListImage"></div>
-            <div class="mainContentBoxListProfile">
-              <div class="mainContentBoxListProfileIcon"></div>
-              <div class="mainContentBoxListProfileStatus">
-                <div class="mainContentBoxListProfileStatusName"></div>
-                <div class="mainContentBoxListProfileStatusHeight"></div>
-              </div>
-            </div>
-          </div>
+          @endforeach
         </div>
       </div>
     </div>
