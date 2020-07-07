@@ -8,6 +8,13 @@
     </div>
     <div class="fashonCreateMain">
       <div class="fashonCreateMainBox">
+      @if($errors->any())
+        <div class="alert alert-danger">
+          @foreach($errors->all() as $message)
+            <p>{{ $message }}</p>
+          @endforeach
+        </div>
+      @endif
         <div class="fashonCreateMainBoxContent">
           <p class="fashonCreateMainBoxContentTitle">コーディネート画像 <span>※</span></p>
           <input type="file" name="path" value=""/><br /><br />

@@ -24,9 +24,27 @@ class CreateFashion extends FormRequest
     public function rules()
     {
         return [
+            'path' => 'required',
             'introduction' => 'max:2000',
             'sex' => 'required',
             'height' => 'required'
+        ];
+    }
+
+    public function attributes()
+    {
+        return [
+            'path' => '画像',
+            'introduction' => 'コーディネート紹介文',
+            'sex' => '性別',
+            'height' => '身長'
+        ];
+    }
+
+    public function messages()
+    {
+        return [
+
         ];
     }
 }
