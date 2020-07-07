@@ -14,7 +14,7 @@ class CreateFashionsTable extends Migration
     public function up()
     {
         Schema::create('fashions', function (Blueprint $table) {
-            $table->id();
+            $table->increments('id');
             $table->text('introduction', 2000);   
             $table->string('path'); 
             $table->integer('sex');
