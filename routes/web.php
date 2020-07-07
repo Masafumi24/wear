@@ -19,3 +19,5 @@ Route::get('/fashions/create', 'FashionController@showCreateForm')->name('fashio
 Route::post('/fashions/create', 'FashionController@create');
 
 Route::get('/fashions/show', 'FashionController@show');
+
+Auth::routes();
