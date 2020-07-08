@@ -35,7 +35,7 @@ class FashionController extends Controller
         $fashion->age = $request->age;
         $fashion->hairstyle = $request->hairstyle;
 
-        $fashion->save();
+        Auth::user()->fashions()->save($fashion);
 
         return redirect()->route('fashions.index');
     }
