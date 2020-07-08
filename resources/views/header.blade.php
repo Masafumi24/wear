@@ -19,9 +19,18 @@
         <h1>WEAR</h1>
       </div>
       <div class="headerUserMenu">
-        <a href=" {{ url('login') }}" class="loginBtn">ログイン</a>
-        |
-        <a href="{{ url('register') }}" class="signupBtn">新規会員登録</a>
+        @if(Auth::check())
+          <sapan class="loginBtn">ようこそ、{{ Auth::user()->name }}さん</span>
+          ｜
+          <a href="#" id="logout" class="signupBtn">ログアウト</a>
+          <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+            @csrf
+          </form>
+        @else
+          <a href=" {{ url('login') }}" class="loginBtn">ログイン</a>
+          |
+          <a href="{{ url('register') }}" class="signupBtn">新規会員登録</a>
+        @endif
     </div>
   </header>
   @if(Request::is('/'))
