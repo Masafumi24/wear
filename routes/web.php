@@ -12,13 +12,11 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::group(['middleware' => 'auth'], function() {
+  Route::get('/', 'FashionController@index')->name('fashions.index');
 
-Route::get('/', 'FashionController@index')->name('fashions.index');
-
-Route::get('/fashions/create', 'FashionController@showCreateForm')->name('fashions.create');
-Route::post('/fashions/create', 'FashionController@create');
+  Route::get('/fashions/create', 'FashionController@showCreateForm')->name('fashions.create');
+  Route::post('/fashions/create', 'FashionController@create');
+});
 
 Auth::routes();
-Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
