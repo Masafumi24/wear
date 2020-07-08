@@ -19,9 +19,9 @@
         <h1>WEAR</h1>
       </div>
       <div class="headerUserMenu">
-        <a href="#" class="loginBtn">ログイン</a>
+        <a href=" {{ url('login') }}" class="loginBtn">ログイン</a>
         |
-        <a href="#" class="signupBtn">新規会員登録</a>
+        <a href="{{ url('register') }}" class="signupBtn">新規会員登録</a>
     </div>
   </header>
   @if(Request::is('/'))
