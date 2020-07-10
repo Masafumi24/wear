@@ -18,6 +18,15 @@ class FashionController extends Controller
         ]);
     }
 
+    public function show($id)
+    {
+        $fashion = Fashion::find($id);
+
+        return view('fashions/show', [
+            'fashions' => $fashion
+        ]);
+    }
+
     public function showCreateForm()
     {
         return view('fashions/create');

@@ -15,6 +15,8 @@ use Illuminate\Support\Facades\Route;
 Route::group(['middleware' => 'auth'], function() {
   Route::get('/', 'FashionController@index')->name('fashions.index');
 
+  Route::get('fashions/show/{id}', 'FashionController@show')->name('fashions.show');
+
   Route::get('/fashions/create', 'FashionController@showCreateForm')->name('fashions.create');
   Route::post('/fashions/create', 'FashionController@create');
 });

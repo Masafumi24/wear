@@ -20,7 +20,7 @@
       </div>
       <div class="headerUserMenu">
         @if(Auth::check())
-          <sapan class="loginBtn">ようこそ、{{ Auth::user()->name }}さん</span>
+          <sapan class="loginBtn">{{ Auth::user()->name }}さん</span>
           ｜
           <a href="#" id="logout" class="signupBtn">ログアウト</a>
           <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
