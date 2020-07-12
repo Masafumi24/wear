@@ -81,6 +81,14 @@ header {
   justify-content: space-between;
 }
 
+.headerUserMenuImage {
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  object-fit: cover;
+  margin: auto 0;
+}
+
 .fashionIndexBottomHeader {
   height: 5vh;
 }
