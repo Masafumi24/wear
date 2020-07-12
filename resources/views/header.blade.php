@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="{{ asset('css/template.css') }}">
   <link rel="stylesheet" href="{{ asset('css/fashion/index.css') }}">
   <link rel="stylesheet" href="{{ asset('css/fashion/createForm.css') }}">
+  <link rel="stylesheet" href="{{ asset('css/fashion/show.css') }}">
 </head>
 <body>
   <header>

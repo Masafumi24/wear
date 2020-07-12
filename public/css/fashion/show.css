@@ -1,0 +1,16 @@
+.fashionShowHeader {
+  background-color: sandybrown;
+  height: 10vh;
+  display: flex;
+}
+
+.fashionShowHeaderLeft {
+  display: flex;
+}
+
+.fashionShowHeaderLeftImage {
+  height: 70px;
+  width: 70px;
+  border-radius: 50px;
+  object-fit: cover;
+}
