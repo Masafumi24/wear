@@ -14,7 +14,7 @@
                 @endforeach
               </div>
             @endif
-            <form action="{{ route('register') }}" method="POST">
+            <form action="{{ route('register') }}" method="POST" enctype="multipart/form-data">
               @csrf
               <div class="form-group">
                 <label for="email">メールアドレス</label>
@@ -32,6 +32,7 @@
                 <label for="password-confirm">パスワード（確認）</label>
                 <input type="password" class="form-control" id="password-confirm" name="password_confirmation">
               </div>
+              <input type="file" name="path" value=""/><br /><br />
               <div class="text-right">
                 <button type="submit" class="btn btn-primary">送信</button>
               </div>
