@@ -5,7 +5,12 @@
     <div class="fashionShowHeaderLeft">
       <img src="{{ asset('/storage/image/'.Auth::user()->path)}}" class="fashionShowHeaderLeftImage">
       <div class="fashionShowHeaderLeftProfile">
-        <sapan class="fashionShowHeaderLeftProfileName">{{ Auth::user()->name }}</span>
+        <span class="fashionShowHeaderLeftProfileName">{{ Auth::user()->name }}</span>
+        <div class="fashionShowHeaderLeftProfileLIst">
+          <span class="fashionShowHeaderLeftProfileName">{{ Auth::user()->height }}</span>
+          <span class="fashionShowHeaderLeftProfileName">{{ Auth::user()->sex }}</span>
+          <span class="fashionShowHeaderLeftProfileName">{{ Auth::user()->hairstyle }}</span>
+        </div>
       </div>
     </div>
     <div class="fashionShowHeaderRight"></div>
