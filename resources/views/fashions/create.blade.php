@@ -29,38 +29,38 @@
               <p class="fashonCreateMainBoxContentRightTitle">性別<span>※</span></p>
               <select name="sex">
                 <option value="" selected="selected">選択してください</option>
-                <option value="0">MEN</option>
-                <option value="1">WOMEN</option>
-                <option value="2">KIDS</option>
+                <option value="MEN">MEN</option>
+                <option value="WOMEN">WOMEN</option>
+                <option value="KIDS">KIDS</option>
               </select>
             </div>
             <div class="selectBox">
               <p class="fashonCreateMainBoxContentRightTitle">身長<span>※</span></p>
               <select name="height">
                 <option value="" selected="selected">選択してください</option>
-                <option value="0">50cm</option>
-                <option value="1">60cm</option>
-                <option value="2">70cm</option>
-                <option value="3">80cm</option>
-                <option value="4">90cm</option>
-                <option value="5">100cm</option>
-                <option value="6">110cm</option>
-                <option value="7">120cm</option>
-                <option value="8">130cm</option>
-                <option value="9">140cm</option>
-                <option value="10">150cm</option>
-                <option value="11">160cm</option>
-                <option value="12">170cm</option>
-                <option value="13">180cm</option>
-                <option value="14">190cm</option>
-                <option value="15">200cm</option>
-                <option value="16">210cm</option>
-                <option value="17">220cm</option>
-                <option value="18">230cm</option>
-                <option value="19">240cm</option>
-                <option value="20">250cm</option>
-                <option value="21">260cm</option>
-                <option value="22">270cm</option>
+                <option value="50">50cm</option>
+                <option value="60">60cm</option>
+                <option value="70">70cm</option>
+                <option value="80">80cm</option>
+                <option value="90">90cm</option>
+                <option value="100">100cm</option>
+                <option value="110">110cm</option>
+                <option value="120">120cm</option>
+                <option value="130">130cm</option>
+                <option value="140">140cm</option>
+                <option value="150">150cm</option>
+                <option value="160">160cm</option>
+                <option value="170">170cm</option>
+                <option value="180">180cm</option>
+                <option value="190">190cm</option>
+                <option value="200">200cm</option>
+                <option value="210">210cm</option>
+                <option value="220">220cm</option>
+                <option value="230">230cm</option>
+                <option value="240">240cm</option>
+                <option value="250">250cm</option>
+                <option value="260">260cm</option>
+                <option value="270">270cm</option>
               </select>
             </div>
             <div class="selectBox">
@@ -174,20 +174,20 @@
               <p class="fashonCreateMainBoxContentRightTitle">髪型</p>
               <select name="hairstyle">
                 <option value="" selected="selected">選択してください</option>
-                <option value="0">ロングヘアー</option>
-                <option value="1">スーパーロングヘアー</option>
-                <option value="2">セミロングヘアー</option>
-                <option value="3">ミディアムヘアー</option>
-                <option value="4">ショートヘアー</option>
-                <option value="5">べリーショートヘアー</option>
-                <option value="6">ボウズ</option>
-                <option value="7">アシンメトリー</option>
-                <option value="8">アフロ</option>
-                <option value="9">２ブロック</option>
-                <option value="10">モヒカン</option>
-                <option value="11">編み込み</option>
-                <option value="12">コーンロウ</option>
-                <option value="13">ドレッド</option>
+                <option value="ロングヘアー">ロングヘアー</option>
+                <option value="スーパーロングヘアー">スーパーロングヘアー</option>
+                <option value="セミロングヘアー">セミロングヘアー</option>
+                <option value="ミディアムヘアー">ミディアムヘアー</option>
+                <option value="ショートヘアー">ショートヘアー</option>
+                <option value="べリーショートヘアー">べリーショートヘアー</option>
+                <option value="ボウズ">ボウズ</option>
+                <option value="アシンメトリー">アシンメトリー</option>
+                <option value="アフロ">アフロ</option>
+                <option value="２ブロック">２ブロック</option>
+                <option value="モヒカン">モヒカン</option>
+                <option value="編み込み">編み込み</option>
+                <option value="コーンロウ">コーンロウ</option>
+                <option value="ドレッド">ドレッド</option>
               </select>
             </div>
           </div>
