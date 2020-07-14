@@ -17,10 +17,10 @@ class CreateFashionsTable extends Migration
             $table->increments('id');
             $table->text('introduction', 2000);   
             $table->string('path'); 
-            $table->integer('sex');
+            $table->string('sex');
             $table->integer('height');
             $table->integer('age');
-            $table->integer('hairstyle');
+            $table->string('hairstyle');
             $table->timestamps();
         });
     }
