@@ -52,7 +52,7 @@
       <div class="mainContent">
         <div class="mainContentBox">
           @foreach($fashions as $fashion)
-            <div class="mainContentBoxList">
+            <a href=" {{ url('fashions/show/'.$fashion->id)}}" class="mainContentBoxList">
               <div class="mainContentBoxListImage">
                 <img src="{{ asset('/storage/image/'.$fashion->path)}}" width="100%" height="100%">
               </div>
@@ -63,7 +63,7 @@
                   <div class="mainContentBoxListProfileStatusHeight"></div>
                 </div>
               </div>
-            </div>
+            </a>
           @endforeach
         </div>
       </div>
