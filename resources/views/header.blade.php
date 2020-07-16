@@ -6,9 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>WEAR</title>
   <link rel="stylesheet" href="{{ asset('css/template.css') }}">
-  <link rel="stylesheet" href="{{ asset('css/fashion/index.css') }}">
-  <link rel="stylesheet" href="{{ asset('css/fashion/createForm.css') }}">
-  <link rel="stylesheet" href="{{ asset('css/fashion/show.css') }}">
+  @yield('styles')
 </head>
 <body>
   <header>

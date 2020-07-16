@@ -1,3 +1,7 @@
+@section('styles')
+  <link rel="stylesheet" href="{{ asset('css/fashion/createForm.css') }}">
+@endsection
+
 @extends('header')
 
 @section('content')

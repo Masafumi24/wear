@@ -1,3 +1,7 @@
+@section('styles')
+  <link rel="stylesheet" href="{{ asset('css/fashion/index.css') }}">
+@endsection
+
 @extends('header')
 
 @section('content')
